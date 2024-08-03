@@ -7,6 +7,7 @@
   --khaki-color: #c7c2ab;
   --pebble-color: #bdbdbd;
   --dark-green-color: #283106;
+  --page-top: 500px;
 }
 
 h1{
@@ -23,7 +24,7 @@ h1{
 }
 
 .app-container{
-  background-color: var(--pebble-color);
+  background-color: var(--grey-color);
   height: 100vh;
 }
 
@@ -44,7 +45,7 @@ h1{
 }
 .fade-enter-active {
   opacity: 1;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 1s linear;
 }
 .fade-exit {
   opacity: 0;

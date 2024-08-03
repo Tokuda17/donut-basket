@@ -1,0 +1,15 @@
+
+.menu-page-top {
+    background-image: url("../img/bagel-backgound.jpg");
+    background-size: cover;
+    background-position: center;
+    height: var(--page-top);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menu-background {
+    width: 100vw;
+}
+
