@@ -14,7 +14,7 @@ function Navbar(list) {
   };
   return (
     <div className="navbar-container">
-      <div className="navbar-empty"></div>
+      <div className="navbar-empty">☰</div>
       <header className={menuOpen ? "toggled" : ""}>
         <Link to="/">
           <img className="logo" src={logo} alt="Donut Basket" />
