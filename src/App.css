@@ -8,6 +8,7 @@
   --pebble-color: #bdbdbd;
   --dark-green-color: #283106;
 }
+
 h1{
   display: flex;
   justify-content: center;
@@ -23,4 +24,32 @@ h1{
 
 .app-container{
   background-color: var(--pebble-color);
+}
+
+.fade{
+  position: relative;
+}
+
+.page {
+  position: absolute; /* Ensure pages do not stack */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+.fade-exit {
+  opacity: 0;
+}
+.fade-exit-active {
+  opacity: 0;
+  display: none;
+  transition: opacity .1s ease-in-out;
 }
