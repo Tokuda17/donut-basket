@@ -24,6 +24,7 @@ h1{
 
 .app-container{
   background-color: var(--pebble-color);
+  height: 100vh;
 }
 
 .fade{
