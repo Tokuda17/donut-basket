@@ -14,7 +14,7 @@ function Navbar(list) {
   };
   return (
     <div className="navbar-container">
-      <div className="navbar-empty">☰</div>
+      <div className="navbar-empty"></div>
       <header className={menuOpen ? "toggled" : ""}>
         <Link to="/">
           <img className="logo" src={logo} alt="Donut Basket" />
@@ -45,8 +45,10 @@ function Navbar(list) {
           </ul>
         </nav>
       </header>
-      <div className="navbar-toggler" onClick={toggleMenu}>
-        ☰
+      <div className="navbar-toggler-container">
+        <label className="navbar-toggler">
+          <input type="checkbox" onClick={toggleMenu}></input>
+        </label>
       </div>
     </div>
   );
