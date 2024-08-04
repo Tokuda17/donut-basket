@@ -1,0 +1,23 @@
+.menu-choices{
+    font-size: 1rem;
+    padding: 6px 14px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: var(--mint-color);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px .1px rgb(86, 83, 83);
+    transition: all .3s ease;
+}
+
+.menu-choices:hover{
+    background-color: var(--ivy-color);
+    color: white;
+}
+
+.menu-selected{
+    background-color: var(--ivy-color);
+    color: white;
+}
+  
+  

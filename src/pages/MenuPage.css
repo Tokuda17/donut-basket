@@ -1,3 +1,10 @@
+:root{
+    --max-width: 600px;
+}
+
+.menu-page{
+    background-color: var(--beige-color);
+}
 
 .menu-page-top {
     background-image: url("../img/bagel-backgound.jpg");
@@ -9,7 +16,65 @@
     align-items: center;
     color: white;
 }
+
+.menu-page-bottom {
+    padding-bottom: 100px;
+}
+
 .menu-background {
     width: 100vw;
+}
+
+.menu-categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px auto;
+    max-width: var(--max-width); /* Limit the maximum width */
+}
+
+.food-choices-container{
+    /* background-color: var(--pebble-color);
+    box-shadow: 10px 10px 0px 1px; */
+    background-color: var(--grey-color); 
+    border: 2px dotted black;
+    border-radius: 60px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: var(--max-width); /* Limit the maximum width */
+   
+}
+
+.food-choices-title{
+    font-size: 48px;
+    padding: 30px;
+    color: var(--dark-green-color)
+}
+
+
+#test{
+    background-color: yellow;
+}
+
+.menu-fade-enter {
+    opacity: 0;
+}
+.menu-fade-enter-active {
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+.menu-fade-exit {
+    opacity: 0;
+}
+.menu-fade-exit-active {
+    opacity: 0;
+    display: none;
+    transition: opacity .5s linear;
 }
 

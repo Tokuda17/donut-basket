@@ -4,9 +4,10 @@
   --grey-color: #dfe0dfdc;
   --mint-color: #d1d8bd;
   --ivy-color: #777e5c;
-  --khaki-color: #c7c2ab;
+  --beige-color: #ede8d0;
   --pebble-color: #bdbdbd;
-  --dark-green-color: #283106;
+  --dark-green-color: #343f05;
+  /* --dark-green-color: #283106; */
   --page-top: 500px;
 }
 
@@ -21,6 +22,7 @@ h1{
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .app-container{

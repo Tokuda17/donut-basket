@@ -1,0 +1,21 @@
+.food-container{
+    width: 100%;
+}
+.food-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    color: var(--dark-green-color);
+}
+.food-name{
+    font-size: 1.6rem;
+}
+.food-price{
+    font-size: 1rem;
+}
+.food-description{
+    padding: 4px 20px 20px;
+    font-size: 14px;
+    color: var(--ivy-color);
+}
