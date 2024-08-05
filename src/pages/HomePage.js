@@ -57,8 +57,8 @@ function HomePage() {
             "Monday-Friday: xx:xx - xx:xx\nSatudary-Sunday xx:xx - xx:xx"
           )}
           isLeft={false}
-          to="/about"
-          name="about us"
+          to="/order-online"
+          name="order online"
         />
       </div>
     </div>
