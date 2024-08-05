@@ -1,0 +1,77 @@
+.widget-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--beige-color);
+}
+
+.widget-right{
+    flex-direction: row-reverse;
+}
+
+.widget-img{
+    width: 63%;
+    height: 500px;
+}
+#img1, #img2, #img3, #img4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#img1{
+    background-image: url("../img/logo-black.png");
+}
+#img2{
+    background-image: url("../img/logo-white.png");
+}
+#img3{
+    background-image: url("../img/logo-no-background.png");
+}
+#img4{
+    background-image: url("../img/bagel-backgound.jpg");
+}
+
+.widget-description{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+
+.widget-title, .widget-paragraph, .widget-button{
+    width: 70%;
+    text-align: center;
+}
+
+.widget-paragraph{
+    line-height: 2rem;
+}
+
+.widget-title{
+    font-size: 3rem;
+}
+
+.widget-img, .widget-description{
+    background-color: var(--dark-green-color);
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    .widget-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .widget-description{
+        padding: 20px;
+    }
+    .widget-img, .widget-description{
+        width: 95%;
+        height: 350px;
+    }
+}
