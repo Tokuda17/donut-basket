@@ -1,9 +1,12 @@
 import React from "react";
+import Ribbon from "../components/Ribbon";
 
 function HomePage() {
   return (
-    <div>
-      <h1>HOME PAGE</h1>
+    <div className="home-page">
+      <div className="menu-page-top">
+        <Ribbon text="Donut Basket" />
+      </div>
     </div>
   );
 }

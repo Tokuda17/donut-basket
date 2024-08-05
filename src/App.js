@@ -16,6 +16,7 @@ import ContactPage from "./pages/ContactPage";
 import OrderOnlinePage from "./pages/OrderOnlinePage";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
@@ -36,6 +37,7 @@ function App() {
           </CSSTransition>
         </TransitionGroup>
       </div>
+      <Footer />
     </div>
   );
 }

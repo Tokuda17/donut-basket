@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mint-color);
+    height: 200px;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.footer-container h1{
+    color: var(--dark-green-color);
+    font-size: 2rem;
+}
+
+.footer-icons {
+    margin: 20px 0 20px 0  ;
+}
+
+.footer-icon {
+    color: var(--dark-green-color);
+    margin: 0px 20px 0px 20px;
+}
