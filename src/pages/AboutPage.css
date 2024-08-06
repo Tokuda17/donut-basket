@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-page-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-quote-container{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--beige-color);
+}
+
+.about-us-quote {
+    color: var(--dark-green-color);
+    font-family: "Dancing Script", cursive;
+    position: relative; 
+
+    font-size: 4rem; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+
+}
+
+
+  
+/* .about-us-quote::before,
+.about-us-quote::after {
+    content: "“";
+    font-size: 4rem; 
+    color: var(--quote-color, #000); 
+    position: absolute;
+    top: 0;
+    color: var(--dark-green-color);
+}
+  
+.about-us-quote::before {
+    left: -40px; 
+}
+  
+.about-us-quote::after {
+    content: "”"; 
+    right: -20px;
+    rotate: 180deg;
+    bottom: 0px;
+    transform: scaleX(-1);
+} 
+*/
+
+
+@media (max-width: 768px){
+
+}
