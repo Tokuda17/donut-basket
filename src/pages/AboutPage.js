@@ -15,7 +15,7 @@ function AboutPage() {
         </div>
         <div className="about-us-container">
           <AboutUsWidget
-            title="About us"
+            title="Our Story"
             img="img4"
             description="We are a small local business dedicated towarsd making incredible food for our community. starting our journey is 2018, we love coming into work and providing the town of livingston excellent culinary options"
             isLeft={false}

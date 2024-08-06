@@ -53,6 +53,7 @@
     font-size: 48px;
     padding: 30px;
     color: var(--dark-green-color);
+    text-align: center;
 }
 
 .menu-page-list{
