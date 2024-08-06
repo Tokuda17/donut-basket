@@ -58,7 +58,7 @@ function HomePage() {
           )}
           isLeft={false}
           to="/order-online"
-          name="order ahead"
+          name="call ahead"
         />
       </div>
     </div>

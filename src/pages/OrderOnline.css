@@ -1,0 +1,29 @@
+.order-page{
+    height: 80vh;
+    background-color: var(--beige-color);
+  
+}
+.order-title{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px 0 20px;
+}
+
+.order-text{
+text-align: center;
+font-size: 24px;
+}
+
+#order-number {
+    color: var(--dark-green-color); /* Sets the text color to black */
+    text-decoration: none; /* Removes the underline by default */
+    font-size: 24px;
+
+  }
+  
+#order-number:hover {
+    transition: color .3 ease;
+    text-decoration: underline; 
+    color: var(--ivy-color);
+}
+  

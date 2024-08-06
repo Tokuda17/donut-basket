@@ -39,7 +39,7 @@ function Navbar(list) {
             </li>
             <li className="navbar-list">
               <Link to="/order-online">
-                <button className="order-online-button">Order Ahead</button>
+                <button className="order-online-button">Call Ahead</button>
               </Link>
             </li>
           </ul>
