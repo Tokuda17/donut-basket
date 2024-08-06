@@ -11,7 +11,7 @@ function AboutPage() {
       </div>
       <div className="about-page-bottom">
         <div className="about-quote-container">
-          <p className="about-us-quote">Established in 2018</p>
+          <p className="about-us-quote">Family Owned since 2018</p>
         </div>
         <div className="about-us-container">
           <AboutUsWidget
