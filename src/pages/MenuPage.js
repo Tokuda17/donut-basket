@@ -17,6 +17,7 @@ function MenuPage() {
       { name: "Pancakes", price: 5.99, description: "Fluffy pancakes" },
       { name: "Waffles", price: 6.99, description: "Crispy waffles" },
       { name: "Omelette", price: 7.99, description: "Cheese omelette" },
+      { name: "Eggs", price: "1.50", description: "Two over easy eggs" },
     ],
     lunch: [
       { name: "Burger", price: 8.99, description: "Juicy burger" },
@@ -66,17 +67,19 @@ function MenuPage() {
             classNames="menu-fade" // Class name for the fade transition
           >
             <div className="food-choices-container">
-              <div className="food-choices-title">
+              <h1 className="food-choices-title">
                 {selectedMenu.toUpperCase()}
+              </h1>
+              <div className="menu-page-list">
+                {menuItems[selectedMenu].map((item, index) => (
+                  <Food
+                    key={index}
+                    name={item.name}
+                    price={item.price}
+                    description={item.description}
+                  />
+                ))}
               </div>
-              {menuItems[selectedMenu].map((item, index) => (
-                <Food
-                  key={index}
-                  name={item.name}
-                  price={item.price}
-                  description={item.description}
-                />
-              ))}
             </div>
           </CSSTransition>
         </TransitionGroup>

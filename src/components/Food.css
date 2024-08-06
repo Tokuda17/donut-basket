@@ -1,5 +1,5 @@
 .food-container{
-    width: 100%;
+    width: 50%;
 }
 .food-header{
     display: flex;
@@ -11,11 +11,20 @@
 .food-name{
     font-size: 1.6rem;
 }
+
+
 .food-price{
     font-size: 1rem;
 }
 .food-description{
-    padding: 4px 20px 20px;
+    padding: 4px 20px 30px;
+
     font-size: 14px;
     color: var(--ivy-color);
+}
+
+@media (max-width: 768px){
+    .food-container{
+        width: 90vw;
+    }
 }
