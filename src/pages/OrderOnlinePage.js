@@ -7,8 +7,8 @@ function OrderOnlinePage() {
       <p className="order-text">
         To place a pickup order, please call{<br />}
         {<br />}
-        <a id="order-number" href="tel:+1234567890">
-          +1 (234) 567-890
+        <a id="order-number" href="tel:+9739941300">
+          +1 (973) 994-1300
         </a>
       </p>
     </div>

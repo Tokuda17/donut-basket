@@ -13,20 +13,31 @@ function ContactPage() {
               <div className="contact-item">
                 <p className="contact-text">
                   Phone Number:{" "}
-                  <a className="contact-links" href="tel:+1234567890">
-                    +1 (234) 567-890
+                  <a className="contact-links" href="tel:+9739941300">
+                    1 (973) 994-1300
                   </a>
                 </p>
               </div>
               <div className="contact-item">
                 <p className="contact-text">
-                  Address: 123 Main St, Anytown, USA
+                  Address:{" "}
+                  <a
+                    className="contact-links"
+                    target="_blank"
+                    href="https://www.google.com/maps/place/327+W+Mt+Pleasant+Ave,+Livingston,+NJ+07039/@40.7958383,-74.3411578,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3a90d9b6268d3:0x962ee10eb25238fd!8m2!3d40.7958383!4d-74.3385882!16s%2Fg%2F11c215pw9p?entry=ttu"
+                  >
+                    327 W Mt Pleasant Ave
+                  </a>
                 </p>
               </div>
               <div className="contact-item">
                 <p className="contact-text">
                   Email:{" "}
-                  <a className="contact-links" href="mailto:info@example.com">
+                  <a
+                    target="_blank"
+                    className="contact-links"
+                    href="mailto:info@example.com"
+                  >
                     info@example.com
                   </a>
                 </p>
