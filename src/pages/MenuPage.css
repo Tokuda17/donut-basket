@@ -1,5 +1,5 @@
 :root{
-    --max-width: 800px;
+    --max-width: 1000px;
 }
 
 .menu-page{
@@ -48,18 +48,28 @@
 }
 
 
-.food-choices-title{
+.food-choices-title, .food-choices-subtitle{
     font-size: 48px;
-    padding: 30px;
+    padding: 10px;
     color: var(--dark-green-color);
     text-align: center;
+}
+
+.food-choices-title{
+    font-family: var(--script-font);
+}
+
+.food-choices-subtitle{
+    color: black;
+    font-size: 1.6rem;
+    padding-bottom: 30px;
 }
 
 .menu-page-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    
 }
 
 .menu-fade-enter {

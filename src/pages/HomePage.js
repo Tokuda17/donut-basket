@@ -29,7 +29,7 @@ function HomePage() {
         <Widget
           title="menu"
           img="img1"
-          description="Here is our menu. we serve breakfast, lunch and dinner at affordable prices"
+          description="Explore our menu featuring breakfast, lunch, and dinner, all at affordable prices."
           isLeft={true}
           to="/menu"
           name="menu"
@@ -45,7 +45,7 @@ function HomePage() {
         <Widget
           title="Contact"
           img="img3"
-          description="Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!Call us to order ahead!"
+          description="Learn more about our contact information and hours"
           isLeft={true}
           to="/contact"
           name="Contact"

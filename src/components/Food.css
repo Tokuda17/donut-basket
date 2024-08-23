@@ -9,12 +9,14 @@
     color: var(--dark-green-color);
 }
 .food-name{
-    font-size: 1.6rem;
+    font-size: 24px;
+    padding: 0 10px 0 0;
 }
 
 
 .food-price{
-    font-size: 1rem;
+    font-size: 16px;
+
 }
 .food-description{
     padding: 4px 20px 30px;
