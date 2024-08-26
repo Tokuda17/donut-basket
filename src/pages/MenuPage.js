@@ -243,7 +243,7 @@ function MenuPage() {
             "Sliced chipotlle seasoned chicken, chiopotle chili aioli, lettuce, tomato, mayo on a sub",
         },
         {
-          name: "#27 - The V.J.P",
+          name: "#27 - The VIP",
           price: 9.49,
           description:
             "Breaded chicken cutlet, fresh mozzarella, hot peppers, lettuce, tomato, Russian dressing on a toasted sub",

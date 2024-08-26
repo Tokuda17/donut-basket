@@ -8,11 +8,11 @@ function Footer() {
       link: `tel:+9739941300`,
       name: `9739941300`,
     },
-    {
-      icon: <Envelope strokeWidth={1} size={36} />,
-      link: `mailto:michael.tokuda17@gmail.com`,
-      name: `michael.tokuda17@gmail.com`,
-    },
+    // {
+    //   icon: <Envelope strokeWidth={1} size={36} />,
+    //   link: `mailto:michael.tokuda17@gmail.com`,
+    //   name: `michael.tokuda17@gmail.com`,
+    // },
     {
       icon: <Location strokeWidth={1} size={36} />,
       link: `https://www.google.com/maps/place/327+W+Mt+Pleasant+Ave,+Livingston,+NJ+07039/@40.7958383,-74.3411578,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3a90d9b6268d3:0x962ee10eb25238fd!8m2!3d40.7958383!4d-74.3385882!16s%2Fg%2F11c215pw9p?entry=ttu`,

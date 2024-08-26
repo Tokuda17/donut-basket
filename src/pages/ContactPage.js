@@ -31,7 +31,7 @@ function ContactPage() {
                 </p>
               </div>
               <div className="contact-item">
-                <p className="contact-text">
+                {/* <p className="contact-text">
                   Email:{" "}
                   <a
                     target="_blank"
@@ -40,17 +40,15 @@ function ContactPage() {
                   >
                     info@example.com
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
           <div className="hours-info-container">
             <h1 className="contact-info-title">Hours</h1>
             <div className="contact-items">
-              <p className="contact-text">Monday-Friday: 9:00 AM - 5:00 PM</p>
-              <p className="contact-text">
-                Saturday-Sunday: 10:00 AM - 4:00 PM
-              </p>
+              <p className="contact-text">Monday-Saturday: 5:30 AM - 4:30 PM</p>
+              <p className="contact-text">Sunday: 7:00 AM - 2:00 PM</p>
             </div>
           </div>
         </div>
